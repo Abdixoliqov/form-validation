@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form validation</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2 class="header-title">Create Account</h2>
+    </div>
+    <form id="form" class="form">
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="hamidullo">
+        <i class='bx bx-check-circle'></i>
+        <i class='bx bx-info-circle'></i>
+        <small class="error-message">error</small>
+      </div>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="abc@123.com">
+        <i class='bx bx-check-circle'></i>
+        <i class='bx bx-info-circle'></i>
+        <small class="error-message">error</small>
+      </div>
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Password">
+        <i class='bx bx-check-circle'></i>
+        <i class='bx bx-info-circle'></i>
+        <small class="error-message">error</small>
+      </div>
+      <div class="form-control">
+        <label for="password2">Password check</label>
+        <input id="password2" type="password" placeholder="passwird two">
+        <i class='bx bx-check-circle'></i>
+        <i class='bx bx-info-circle'></i>
+        <small class="error-message">error</small>
+      </div>
+
+      <button>Submit</button>
+    </form>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
